@@ -1,0 +1,33 @@
+// custom variables
+$main-color: #333;
+$primary: #fff;
+$input-group-addon-bg: $primary;
+
+
+span {
+  .fa {
+    color: $main-color;
+  }
+}
+button {
+  .fa {
+    color: #fff;
+  }
+}
+.navbar, {
+  a {
+    font-size: 17px;
+  }
+}
+
+$theme-colors: (
+  "light": #666,
+  "dark": #333,
+  "danger": #ff4136
+);
+#showcase .bg-image {
+  background: url(../img/marmore.png) no-repeat;
+}
+// import Bootstrap && FontAwesome
+@import "../bower_components/bootstrap/scss/bootstrap";
+@import "../bower_components/fontawesome/scss/font-awesome";

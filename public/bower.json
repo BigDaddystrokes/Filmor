@@ -1,0 +1,24 @@
+{
+  "name": "public",
+  "authors": [
+    "Luis Filipe <lfgl94@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^4.7.0",
+    "tooltip.js": "https://unpkg.com/tooltip.js",
+    "popper.js": "^1.14.3",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
+  }
+}

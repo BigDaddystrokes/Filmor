@@ -1,0 +1,215 @@
+/* Imports */
+@import "./src/scss/_modules/custom";
+@import "./bower_components/bootstrap/scss/bootstrap";
+
+
+/* Core Styles */
+.button-custom-primary {
+  border: 2px solid #333 !important;
+}
+
+.carousel img {
+  max-height: 650px;
+  object-fit: cover;
+  max-width: none;
+  min-width: 100%;
+}
+
+#showcase {
+  background: #333;
+}
+
+.title {
+  font-family: 'Playfair Display';
+}
+
+.text{
+  font-family: 'Raleway Light';
+  font-size: 17px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background: #333;
+  color: #333;
+  line-height: 1;
+  text-align: center;
+}
+
+.card {
+  max-height: 95%;
+
+}
+
+.card:hover {
+  box-shadow: -5px 10px 40px -12px rgb(255,255,255, 0.8);
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content > p {
+  margin-top: -1em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  padding: 1em 0;
+}
+/*
+#showcase .bg-image {
+  position: absolute;
+  background: #333;
+  background-position: 0px -600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+  opacity: 0.8;
+}*/
+
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* Header Showcase
+.custom-button {
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+} */
+#showcase {
+  min-height: 200px;
+  color: #333;
+  text-align: center;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* Section A */
+
+#section-a {
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+/* Section B# */
+#section-b h2 {
+  color: #fff;
+}
+
+#section-b {
+  border-top: 2px solid #fff !important;
+  border-left: 2px solid #fff !important;
+  border-right: 2px solid #fff !important;
+}
+
+#section-b2 {
+  border-left: 2px solid #fff !important;
+  border-right: 2px solid #fff !important;
+}
+
+#section-b3 {
+  border-left: 2px solid #fff !important;
+  border-right: 2px solid #fff !important;
+  border-bottom: 1px solid #fff !important;
+}
+
+#section-b3 .container {
+  margin-bottom: 1em;
+}
+
+
+#section-b, #section-b2, #section-b3 {
+  background-color: #333;
+}
+
+#section-b ul,
+#section-b2 ul,
+#section-b2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b li,
+#section-b2 li,
+#section-b2 ul {
+  background: #fff;
+  color: #333;
+}
+
+/* Section C */
+
+#section-c {
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+/* Section D / Boxes */
+.button-custom {
+  border: 2px solid #fff !important;
+}
+
+#section-d .box {
+  padding: 0.5em;
+  color: #fff;
+  border: solid 2px;
+  background-color: #333;
+}
+
+.content-title, p {
+  text-align: center;
+}
+
+#text {
+  margin-top: ;
+}
+
+/* Footer */
+
+#footer {
+  position: absolute;
+  bottom:: 0;
+  padding: 0.5em;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  border-top: solid 1px;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  border-bottom: solid 2px;
+  background-color: #333;
+}

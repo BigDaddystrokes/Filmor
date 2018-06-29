@@ -1,0 +1,88 @@
+/* Imports */
+@import "./src/scss/_modules/custom";
+@import "./bower_components/bootstrap/scss/bootstrap";
+
+
+/* Core Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  padding: 1em 0;
+}
+
+#showcase .bg-image {
+  position: absolute;
+  background: #333 url("https://images.pexels.com/photos/262271/pexels-photo-262271.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* Header Showcase */
+.btn-secondary {
+  @include button-variant(#fff, #333, #6f5499)
+}
+#showcase {
+  min-height: 450px;
+  color: #333;
+  text-align: center;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* Footer */
+#footer {
+  position: absolute;
+  bottom:: 0;
+  padding: 0.5em;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  border: solid 1px;
+  background-color: #333;
+}
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
